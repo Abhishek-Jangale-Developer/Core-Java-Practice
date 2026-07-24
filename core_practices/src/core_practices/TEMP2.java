@@ -17,7 +17,7 @@ class Book
 {
 	/*  1.Instance Veriables
 	 * 
-	 * Inside class
+	 * Inside classsss
 	 * Outside Method
 	 */
 	
