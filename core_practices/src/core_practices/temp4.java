@@ -6,8 +6,8 @@ public class temp4 {
 
 	        Student first = new Student();
 
-	        first.name = "Rahul";
-	        first.age = 20;
+	        first.name = "pravin";
+	        first.age = 22;
 	        first.branch = "Computer Science";
 	        first.city = "Pune";
 
@@ -15,7 +15,7 @@ public class temp4 {
 
 	        Student second = new Student();
 
-	        second.name = "Priya";
+	        second.name = "Pravina";
 	        second.age = 19;
 	        second.branch = "Information Technology";
 	        second.city = "Mumbai";
