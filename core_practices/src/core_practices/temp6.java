@@ -1,5 +1,7 @@
 package core_practices;
+
 public class temp6 {
+	
 	public static void main(String[] args) {
 		
 		Aeroplane first = new Aeroplane();
@@ -11,9 +13,12 @@ public class temp6 {
 class Aeroplane
 {
 	static String name ="AIR_INDIA";
+	
      
   public void takeoff()
+  
   {
 	  System.out.println(name);
   }
+  
 }
