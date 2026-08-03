@@ -8,6 +8,7 @@ public class array {
 		        Indian_Aeroplane one = new Indian_Aeroplane();
 		        Indian_Aeroplane two = new Indian_Aeroplane();
 		        
+		        
 		        // Assigning values
 		        one.name = "AIR INDIA";
 		        one.pilot = "R K BHOSALE";

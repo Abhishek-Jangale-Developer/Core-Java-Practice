@@ -12,6 +12,8 @@ public class this_1 {
 
 class Studd
 {
+	
+	
 	int id;
 	String name;
 	
