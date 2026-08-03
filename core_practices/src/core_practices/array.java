@@ -14,6 +14,7 @@ public class array {
 		        one.pilot = "R K BHOSALE";
 
 		        two.name = "INDIGO";
+		        
 		        two.pilot = "MR.REDDY";
 
 		        // Calling methods
