@@ -1,0 +1,63 @@
+package core_practices;
+
+public class temp3 {
+	public static void main (String args[])
+	{
+		Java_uss first = new Java_uss();
+		
+		first.name = "Akash";
+		first.age=16;
+		first.gender="M";
+		first.laptop="Asus";
+		
+		first.Sleep();
+		
+		
+		Java_uss second = new Java_uss();
+		
+		second.name = "Sham";
+		second.age =21;
+		second.gender="M";
+		second.laptop = "Dell";
+		
+		second.Study();
+		
+		System.out.println(Java_uss.teacher);
+		System.out.println(first.teacher);
+		
+		first.teacher = "Mahi";
+		
+		System.out.println(second.teacher);
+		System.out.println(Java_uss.teacher);
+		System.out.println(first.teacher);
+		
+	}
+
+}
+
+class Java_uss
+{
+	static String teacher = "Mahesh";
+	
+	String name;
+	int age;
+	char gender;
+	String laptop;
+	
+	public void Study()
+	{
+		System.out.println("I am Studying.....");
+	}
+	
+	public void Sleep()
+	{
+		String s = "AC";
+		System.out.println("I am sleeping...in" +s);
+	}
+	
+	public void Travel()
+	{
+		System.out.println("Travelling...");
+	}
+}
+

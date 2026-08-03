@@ -1,0 +1,27 @@
+package core_practices;
+
+public class temp1 {
+	public static void main (String args[])
+	{
+		Vidyarthi first = new Vidyarthi();
+		
+		first.study();
+		
+	}
+
+}
+
+class Vidyarthi
+{
+	String name;
+	int roll_no;
+	double marks;
+	
+	
+	public void study()
+	{
+		System.out.println("I am studying..");
+	}
+}
+
+

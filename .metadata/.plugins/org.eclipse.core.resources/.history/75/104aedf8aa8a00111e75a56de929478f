@@ -1,0 +1,40 @@
+package core_practices;
+
+public class array {
+
+	public static void main(String[] args) {
+
+		        // Creating objects
+		        Indian_Aeroplane one = new Indian_Aeroplane();
+		        Indian_Aeroplane two = new Indian_Aeroplane();
+		        
+		        // Assigning values
+		        one.name = "AIR INDIA";
+		        one.pilot = "R K BHOSALE";
+
+		        two.name = "INDIGO";
+		        two.pilot = "MR.REDDY   ";
+
+		        // Calling methods
+		        one.takeoff();
+		        two.takeoff();
+		    }
+		}
+
+		class Indian_Aeroplane {
+
+		    // Instance variables
+		    String name;
+		    String pilot;
+
+		    // Non-static method
+		    public void takeoff() {
+		        System.out.println("Plane Name : " + name);
+		        System.out.println("Pilot Name : " + pilot);
+		        System.out.println("Plane is taking off...");
+		        System.out.println();
+		    }
+		}
+	
+
+

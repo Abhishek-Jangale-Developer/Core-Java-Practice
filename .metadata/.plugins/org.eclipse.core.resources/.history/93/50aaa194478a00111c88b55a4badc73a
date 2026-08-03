@@ -1,0 +1,33 @@
+package core_practices;
+
+public class temp7 {
+
+	public static void main(String[] args) {
+		
+		Aeroplane first = new Aeroplane();
+		Aeroplane second = new Aeroplane();
+		
+		
+		first.takeoff();
+		second.land();
+
+	}
+
+}
+
+class Aeroplane
+{
+	static String name ="AIR_INDIA";
+     
+  public void takeoff()
+  {
+	  System.out.println(name);
+  }
+  
+  public void land()
+  {
+	  System.out.println(name);
+  }
+}
+
+

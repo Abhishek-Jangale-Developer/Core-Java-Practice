@@ -1,0 +1,33 @@
+package core_practices;
+
+public class this_1 {
+	public static void main (String args[])
+	{
+		Studd stud = new Studd(101,"the name");
+		
+		System.out.println(stud.name);
+		
+	}
+}
+
+class Studd
+{
+	
+	
+	
+	int id;
+	String name;
+	
+	public Studd(int id, String name)
+	{
+		this.id=id;
+		this.name=name;
+		
+		this.run();
+	}
+	
+	public void run()
+	{
+		System.out.println("Method is run");
+	}	
+}
