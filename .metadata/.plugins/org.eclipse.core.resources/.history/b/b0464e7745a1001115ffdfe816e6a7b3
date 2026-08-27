@@ -1,0 +1,28 @@
+package ExceptionHandeling;
+
+public class first {
+
+	public static void main(String[] args) {
+		
+		int money = 1000;
+		try
+		{
+			if(money<=90000)
+			{
+				throw new Exception("low balance");
+			}
+			else
+			{
+				System.out.println("get a new Iphone");
+			}
+		}
+		
+		catch(Exception ex)
+		{
+			ex.printStackTrace();
+		}
+
+		System.out.println("gkflhufg");
+	}
+
+}
