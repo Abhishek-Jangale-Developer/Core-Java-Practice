@@ -11,14 +11,12 @@ public class temp1 {
 	}
 
 }
-
 class Vidyarthi
 {
 	String name;
 	int roll_no;
 	double marks;
-	
-	
+
 	public void study() //Method name
 	{   
 		//Method Implementation

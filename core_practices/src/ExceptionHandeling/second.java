@@ -3,18 +3,18 @@ package ExceptionHandeling;
 public class second {
      public static void main (String args[])
      {
-    	 int i=6;
+    	 int i=7;
     	 
     	try
     	{
-    		if(i/2==0  || i/3==0)
+    		if(i%2!=0  || i%3!=0)
     		{
-    			System.out.println("Number is super");
+    			throw new Exception("number is incorrrect"); 
     		}
     	    
     		else
     		{
-    			throw new Exception("number is incorrrect"); 
+    			System.out.println("Number is super");
     		}
     	}
     	
