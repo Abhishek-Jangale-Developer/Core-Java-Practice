@@ -15,7 +15,8 @@ public class methodExample {
 			System.out.println(method[i]);
 		}
 		
-		System.out.println("--------------------");
+		
+		System.out.println("--------------------"); //My code
 		
 		System.out.println(method.length);
 		
@@ -23,21 +24,4 @@ public class methodExample {
 		
 	}
 
-}
-class Student
-{
-	public void run()
-	{
-		
-	}
-	
-	public int fight(int i)
-	{
-		
-	}
-      	
-	private void temp()
-	{
-		
-	}
 }
